@@ -1,10 +1,14 @@
 import React from 'react';
+
+// Components
 import Title from './components/Title';
+import UploadForm from './components/UploadForm';
 
 function App() {
   return (
     <div className="App">
-      <Title/>
+      <Title />
+      <UploadForm />
     </div>
   );
 }
